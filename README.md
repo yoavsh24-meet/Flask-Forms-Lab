@@ -56,10 +56,8 @@ facebook_friends=["Loai","Yonathan","Adan", "George", "Fouad", "Celina"]
 4. Now, let's add a variable route called `friend_exists` with name as an input:
     - You should create a new route, called `/friend_exists` that additionally takes a variable in the route called name, for example - /friends_exists/Fouad.
     - The route should render `friend_exists.html`.
-    - Make sure that this route accepts `GET` and `POST` as methods.
-    - Add a link to each "friend" in `home.html` (`facebook_friends` list).
-    - Make the link the route `friend_exists` and the name of the friend.
-    - The function checks if the name is in the `facebook_friends` and displays True or False according to the results in 'friend_exists.html`.
+    - The function checks if the name is in the `facebook_friends` and displays True or False according to the results in 'friend_exists.html` (make sure to pass the list to the template).
+    - Test out the route by writing in the url bar.
 
 
 ##### Great job!
